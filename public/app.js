@@ -5,6 +5,8 @@ navigator.geolocation.getCurrentPosition(position=>{
     document.querySelector('.lon').textContent=lon;
     document.querySelector('.lat').textContent=lat;
 
+    
+
     const data = {lon,lat};
     const options = {
        method:'POST',
